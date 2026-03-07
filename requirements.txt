@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+pymongo
+certifi
+deepgram-sdk
+groq
+python-multipart
