@@ -1,0 +1,65 @@
+VoicePrompt AI - Phase 5 Multilingual tests
+
+
+===========================================
+  Testing Hindi (hi)
+===========================================
+Input text: Óñ«ÓÑüÓñØÓÑç ÓñÅÓñò Óñ¬Óñ¥ÓñçÓñÑÓñ¿ Óñ½ÓñéÓñòÓÑìÓñÂÓñ¿ ÓñÜÓñ¥Óñ╣Óñ┐ÓñÅ Óñ£ÓÑï Óñ░ÓÑçÓñ©ÓÑìÓñƒ ÓñÅÓñ¬ÓÑÇÓñåÓñê Óñ©ÓÑç ÓñòÓñ¿ÓÑçÓñòÓÑìÓñƒ Óñ╣ÓÑï ÓñöÓñ░ Óñ£ÓÑçÓñ©Óñ¿ ÓñíÓÑçÓñƒÓñ¥ Óñ▓Óñ¥ÓñÅ
+1. Generating synthesized speech using gTTS...
+   -> Saved to test_hi.mp3 (51264 bytes)
+
+2. Calling /voice/process pipeline...
+3. Response status: 200
+   OK  id         : 69ad5b5b45ed464fedebc09a
+   OK  transcript : 'Óñ«ÓÑüÓñØÓÑç ÓñÅÓñò Óñ¬Óñ¥ÓñçÓñÑÓñ¿ function ÓñÜÓñ¥Óñ╣Óñ┐ÓñÅ Óñ£ÓÑï rest ÓñÅÓñ¬ÓÑÇ Óñ©ÓÑç connect Óñ╣ÓÑï ÓñöÓñ░ Óñ£ÓÑçÓñ©Óñ¿ data Óñ▓ÓÑç.'
+   OK  intent     : coding
+   OK  framework  : Chain of Thought
+   OK  prompt_len : 1114 chars
+   OK  elapsed_ms : 4140 ms
+
+------- Generated Prompt (first 300 chars) -------
+### Task
+Create a Python function to connect to a REST API and retrieve JSON data.
+
+### Context
+- Programming language: Python
+- Framework: Requests library for HTTP requests
+- Constraints: Handle potential connection errors and JSON parsing errors
+- Environment: Python 3.x
+
+### Step-by-Step Reasoni...
+--------------------------------------------------
+
+   [PASS] Hindi test successful!
+
+===========================================
+  Testing Marathi (mr)
+===========================================
+Input text: Óñ«Óñ¥ÓñØÓÑìÓñ»Óñ¥ Óñ¼ÓÑëÓñ©Óñ▓Óñ¥ Óñ¿ÓñÁÓÑÇÓñ¿ Óñ¬ÓÑìÓñ░ÓÑïÓñ£ÓÑçÓñòÓÑìÓñƒ Óñ¬ÓÑìÓñ░Óñ¬ÓÑïÓñ£Óñ▓ Óñ¼ÓñªÓÑìÓñªÓñ▓ ÓñÅÓñò ÓñêÓñ«ÓÑçÓñ▓ ÓñíÓÑìÓñ░Óñ¥Óñ½ÓÑìÓñƒ ÓñòÓñ░
+1. Generating synthesized speech using gTTS...
+   -> Saved to test_mr.mp3 (39360 bytes)
+
+2. Calling /voice/process pipeline...
+3. Response status: 200
+   OK  id         : 69ad5b5f45ed464fedebc09b
+   OK  transcript : 'Óñ«Óñ¥ÓñØÓÑìÓñ»Óñ¥Óñ¡Óñ¥ÓñÀÓñ¥Óñ▓Óñ¥ Óñ¿ÓñÁÓÑÇÓñ¿ Óñ¬ÓÑìÓñ░ÓÑïÓñ£ÓÑçÓñòÓÑìÓñƒ Óñ¬ÓÑìÓñ░Óñ¬ÓÑïÓñ£Óñ▓ Óñ¼ÓñªÓÑìÓñªÓñ▓ ÓñÅÓñò ÓñçÓñ«ÓÑçÓñ▓ ÓñíÓÑìÓñ░Óñ¥Óñ½ÓÑìÓñƒ ÓñòÓñ░'
+   OK  intent     : quick
+   OK  framework  : RFGF
+   OK  prompt_len : 230 chars
+   OK  elapsed_ms : 3312 ms
+
+------- Generated Prompt (first 300 chars) -------
+### Role
+Óñ¬ÓÑìÓñ░ÓÑïÓñ£ÓÑçÓñòÓÑìÓñƒ Óñ«ÓÑàÓñ¿ÓÑçÓñ£Óñ░
+### Format
+Óñ¬ÓÑàÓñ░Óñ¥ÓñùÓÑìÓñ░Óñ¥Óñ½
+### Goal
+Óñ¿ÓñÁÓÑÇÓñ¿ Óñ¬ÓÑìÓñ░ÓÑïÓñ£ÓÑçÓñòÓÑìÓñƒ Óñ¬ÓÑìÓñ░Óñ¬ÓÑïÓñ£Óñ▓ÓñÜÓÑÇ Óñ«Óñ¥Óñ╣Óñ┐ÓññÓÑÇ Óñ©ÓÑìÓñ¬ÓñÀÓÑìÓñƒÓñ¬ÓñúÓÑç Óñ©Óñ¥ÓñéÓñùÓñúÓñ¥Óñ░Óñ¥ ÓñçÓñ«ÓÑçÓñ▓ ÓñíÓÑìÓñ░Óñ¥Óñ½ÓÑìÓñƒ ÓññÓñ»Óñ¥Óñ░ ÓñòÓñ░ÓñúÓÑç.
+### Fence
+ÓñòÓÑïÓñúÓññÓÑìÓñ»Óñ¥Óñ╣ÓÑÇ ÓñÁÓÑêÓñ»ÓñòÓÑìÓññÓñ┐Óñò Óñ«Óñ¥Óñ╣Óñ┐ÓññÓÑÇÓñÜÓñ¥ Óñ©Óñ«Óñ¥ÓñÁÓÑçÓñÂ Óñ¿ ÓñòÓñ░ÓñúÓÑç ÓñåÓñúÓñ┐ Óñ¬ÓÑìÓñ░ÓÑïÓñ£ÓÑçÓñòÓÑìÓñƒÓñÜÓÑìÓñ»Óñ¥ ÓññÓñ¬ÓñÂÓÑÇÓñ▓Óñ¥ÓñéÓñÁÓñ░ Óñ▓ÓñòÓÑìÓñÀ ÓñòÓÑçÓñéÓñªÓÑìÓñ░Óñ┐Óññ ÓñòÓñ░ÓñúÓÑç.
+--------------------------------------------------
+
+   [PASS] Marathi test successful!
+
+===========================================
+  ALL MULTILINGUAL TESTS PASSED!

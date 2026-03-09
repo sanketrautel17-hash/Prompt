@@ -44,9 +44,11 @@ async def transcribe_audio(audio_bytes: bytes, language: str = "en") -> str:
     try:
         client = AsyncDeepgramClient(api_key=api_key)
 
+        model_name = "nova-3" if language == "mr" else "nova-2"
+
         response = await client.listen.v1.media.transcribe_file(
             request=audio_bytes,
-            model="nova-2",
+            model=model_name,
             language=language,
             smart_format=True,
             punctuate=True,

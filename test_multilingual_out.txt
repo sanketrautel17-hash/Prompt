@@ -1,0 +1,48 @@
+VoicePrompt AI - Phase 5 Multilingual tests
+
+
+===========================================
+  Testing Hindi (hi)
+===========================================
+Input text: Óñ«ÓÑüÓñØÓÑç ÓñÅÓñò Óñ¬Óñ¥ÓñçÓñÑÓñ¿ Óñ½ÓñéÓñòÓÑìÓñÂÓñ¿ ÓñÜÓñ¥Óñ╣Óñ┐ÓñÅ Óñ£ÓÑï Óñ░ÓÑçÓñ©ÓÑìÓñƒ ÓñÅÓñ¬ÓÑÇÓñåÓñê Óñ©ÓÑç ÓñòÓñ¿ÓÑçÓñòÓÑìÓñƒ Óñ╣ÓÑï ÓñöÓñ░ Óñ£ÓÑçÓñ©Óñ¿ ÓñíÓÑçÓñƒÓñ¥ Óñ▓Óñ¥ÓñÅ
+1. Generating synthesized speech using gTTS...
+   -> Saved to test_hi.mp3 (51264 bytes)
+
+2. Calling /voice/process pipeline...
+3. Response status: 200
+   OK  id         : 69ad5b1ce986f3f5ae952988
+   OK  transcript : 'Óñ«ÓÑüÓñØÓÑç ÓñÅÓñò Óñ¬Óñ¥ÓñçÓñÑÓñ¿ function ÓñÜÓñ¥Óñ╣Óñ┐ÓñÅ Óñ£ÓÑï rest ÓñÅÓñ¬ÓÑÇ Óñ©ÓÑç connect Óñ╣ÓÑï ÓñöÓñ░ Óñ£ÓÑçÓñ©Óñ¿ data Óñ▓ÓÑç.'
+   OK  intent     : coding
+   OK  framework  : Chain of Thought
+   OK  prompt_len : 925 chars
+   OK  elapsed_ms : 3375 ms
+
+------- Generated Prompt (first 300 chars) -------
+### Task
+Create a Python function to connect to a REST API and retrieve JSON data.
+
+### Context
+- Programming language: Python
+- API type: REST
+- Data format: JSON
+- Libraries/frameworks: `requests` for API connection, `json` for data handling
+
+### Step-by-Step Reasoning
+1. Import necessary librarie...
+--------------------------------------------------
+
+   [PASS] Hindi test successful!
+
+===========================================
+  Testing Marathi (mr)
+===========================================
+Input text: Óñ«Óñ¥ÓñØÓÑìÓñ»Óñ¥ Óñ¼ÓÑëÓñ©Óñ▓Óñ¥ Óñ¿ÓñÁÓÑÇÓñ¿ Óñ¬ÓÑìÓñ░ÓÑïÓñ£ÓÑçÓñòÓÑìÓñƒ Óñ¬ÓÑìÓñ░Óñ¬ÓÑïÓñ£Óñ▓ Óñ¼ÓñªÓÑìÓñªÓñ▓ ÓñÅÓñò ÓñêÓñ«ÓÑçÓñ▓ ÓñíÓÑìÓñ░Óñ¥Óñ½ÓÑìÓñƒ ÓñòÓñ░
+1. Generating synthesized speech using gTTS...
+   -> Saved to test_mr.mp3 (39360 bytes)
+
+2. Calling /voice/process pipeline...
+3. Response status: 502
+   [FAIL] Error 502: {"detail":"Deepgram transcription failed: headers: {'content-type': 'application/json', 'dg-error': 'Bad Request: No such model/language/tier combination found. You could try the \"general\" model (language: mr, Nova-3 tier).', 'dg-project-id': '4ea2d54f-90da-429e-b239-d1cd3fcdf3f9', 'vary': 'origin, access-control-request-method, access-control-request-headers, accept-encoding', 'access-control-allow-credentials': 'true', 'access-control-expose-headers': 'dg-model-name,dg-model-uuid,dg-additional-model-uuids,dg-char-count,dg-request-id,dg-project-id,dg-error,dg-breaks-applied,dg-pronunciations-applied,dg-pronunciation-warnings', 'content-encoding': 'gzip', 'dg-request-id': 'c0a81d9b-3112-478a-95fd-f1a5575344df', 'transfer-encoding': 'chunked', 'date': 'Sun, 08 Mar 2026 11:18:55 GMT'}, status_code: 400, body: {'err_code': 'Bad Request', 'err_msg': 'Bad Request: No such model/language/tier combination found. You could try the \"general\" model (language: mr, Nova-3 tier).', 'request_id': 'c0a81d9b-3112-478a-95fd-f1a5575344df'}"}
+
+===========================================
+  SOME TESTS FAILED/WARN - Check output.
